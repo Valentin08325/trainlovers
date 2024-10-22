@@ -4,12 +4,11 @@
     font-family: Century;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pexels-souvenirpixels-1598075.jpg);
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+    height: 600px;
     background-size: cover;
     background-position: center;
-    min-height: 100px;
-
+    background-attachment: fixed;
 
 }
 .main{
@@ -54,9 +53,8 @@ ul li.active a{
 .title{
     position: absolute;
     top: 10%;
-    left: 40%;
+    left: 45%;
     transition: translate(-50%,-50%);
-
 }
 .title h1{
     color: #fff;
@@ -72,4 +70,114 @@ ul li.active a{
     top: 25%;
     left: 0%;
     transition: translate(-50%,-50%);
+}
+body{
+    height: 1000vh;
+}
+.wrapperoutter{
+
+}
+.wrapper{
+
+}
+.parallax_section{
+    min-height: 70vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: relative;
+}
+.parallax{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.parallax_section h2{
+    color: #fff;
+    margin: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transition: translate(-50%,-50%);
+    font-family: Century;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+
+}
+
+.parallax_section p{
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    transition: translate(-50%,-50%);
+    font-family: Century;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: right;
+
+}
+.parallax_section p1{
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    transition: translate(-50%,-50%);
+    font-family: Century;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: right;
+
+}
+.parallax_section p2{
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    position: absolute;
+    top: 64%;
+    left: 0%;
+    transition: translate(-50%,-50%);
+    font-family: Century;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: right;
+
+}
+.parallax_section p3{
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    transition: translate(-50%,-50%);
+    font-family: Century;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: right;
+
+}
+.parallax_section p4{
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    transition: translate(-50%,-50%);
+    font-family: Century;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: left;
+
 }
