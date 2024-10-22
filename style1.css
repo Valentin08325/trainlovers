@@ -72,7 +72,7 @@ ul li.active a{
     transition: translate(-50%,-50%);
 }
 body{
-    height: 1000vh;
+    height: 350vh;
 }
 .wrapperoutter{
 
@@ -81,7 +81,7 @@ body{
 
 }
 .parallax_section{
-    min-height: 70vh;
+    min-height: 80vh;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ body{
     left: 0;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 1000px;
     background-size: cover;
     background-position: center center;
     z-index: -1;
