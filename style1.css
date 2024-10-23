@@ -21,7 +21,7 @@ ul{
     list-style-type: none;
     margin-top: 30px;
     min-height: 400px;
-    margin-right: 60px;
+    margin-right: 175px;
     font-size: 32px;
 }
 
@@ -53,8 +53,9 @@ ul li.active a{
 .title{
     position: absolute;
     top: 10%;
-    left: 45%;
+    left: 37%;
     transition: translate(-50%,-50%);
+
 }
 .title h1{
     color: #fff;
