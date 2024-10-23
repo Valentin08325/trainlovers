@@ -151,7 +151,7 @@ ul{
     list-style-type: none;
     margin-top: 30px;
     min-height: 400px;
-    margin-right: 60px;
+    margin-right: 175px;
     font-size: 32px;
 }
 
@@ -190,4 +190,14 @@ header{
 .main{
     max-width: 1200px;
     margin: auto;
+}
+.title{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transition: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
 }
