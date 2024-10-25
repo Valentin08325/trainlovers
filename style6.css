@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 40px;
+    text-indent: 12px;
+}
+
+.text h3{
+    padding: 15px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+
+}
+
+.image{
+    width: 550px;
+    height: 350px;
+    align-items: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.title{
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    text-align: center; /* Center the menu */
+    font-size: 32px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px; /* Add some spacing between the menu items */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+body {
+    background-image: url(3.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Clear float after the navigation bar */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
